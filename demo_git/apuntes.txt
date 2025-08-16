@@ -1,1 +1,76 @@
-Apuntes GIT
+# Apuntes GIT
+ 1  git --version
+    2  mkdir sis257_2025_2_liva
+    3  ls
+    4  la
+    5  -la
+    6  la -la
+    7  ls -la
+    8  cd sis257_2025_2/
+    9  cd sis257_2025_2_liva/
+   10  pwd
+   11  touch README.md
+   12* ls -las
+   13  ls
+   14  ls -la
+   15* echo 'SIS257' > README.md
+   16  cat README.md
+   17  git init
+   18  git status
+   19  git add .
+   20  git status
+   21  git status
+   22  .//,,,ssdfssdfa  sdfjjhjw
+   23  git comid -m
+   24  git comid -m 'Creacion repositorio SIS257 con archivo README'
+   25  git status
+   26  car README.md
+   27  cat README.md
+   28  git checkout -b demo_git
+   29  echo ' 2/2025' >> README.md
+   30  cat README.md
+   31  nano README.md
+   32  nano
+   33  nano README.md
+   34  nano README.md
+   35  cat README.md
+   36  mkdir demo_git
+   37  ls
+   38  la -la
+   39  ls -la
+   40  echo 'Apuntes GIT' > demo_git/apuntes.txt
+   41  cat demo_git/apuntes.txt
+   42  git status
+   43  git add .
+   44  git commid -m 'feat: Se agrega apuntes.txt en demo_git'
+   45  git commit -m 'feat: Se agrega apuntes.txt en demo_git'
+   46  ls
+   47  cat README.md
+   48  git switch main
+   49  cat README.md
+   50  git switch main
+   51  git commid -m feat: 'Se agrega apuntes.txt en demo_git'
+   52  git commit -m feat: 'Se agrega apuntes.txt en demo_git'
+   53  git commit -m 'feat: Se agrega apuntes.txt en demo_git'
+   54  git switch main
+   55  git switch demo_git
+   56  git config --global user.name 'Luis Israel Vasquez Arias'
+   57  git config --global user.email luisillo5938@gmail.com
+   58  git commit -m 'feat: Se agrega apuntes.txt en demo_git'
+   59  git switch main
+   60  ls
+   61  git switch demo_git
+   62  git switch main
+   63  git switch 'main'
+   64  git switch main
+   65  git status
+   66  git switch main
+   67  git branch'
+   68  git branch
+   69  git checkout -b main
+   70  git branch -M main
+   71  git remote add origin https://github.com/luisisraelVA/sis257_2025_2_liva.git
+   72  git push -u origin main
+   73  git merge demo_git
+   74  git push
+   75  history
